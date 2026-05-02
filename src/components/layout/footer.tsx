@@ -23,7 +23,8 @@ const quickLinks = [
   { label: "Careers", href: "/careers" },
   { label: "News & Trends", href: "/news" },
   { label: "Sustainability", href: "/company/sustainability" },
-  { label: "Global Locations", href: "/global-view" },
+  { label: "Global View", href: "/global-view" },
+  { label: "Global Locations", href: "/global-locations" },
   { label: "Contact Us", href: "/contact" },
 ];
 
@@ -156,13 +157,13 @@ export function Footer() {
         </p>
         <div className="flex items-center gap-4">
           <Link
-            href="/privacy"
+            href="/privacy-policy"
             className="text-xs text-muted-foreground hover:text-foreground transition-colors"
           >
             Privacy Policy
           </Link>
           <Link
-            href="/terms"
+            href="/terms-of-use"
             className="text-xs text-muted-foreground hover:text-foreground transition-colors"
           >
             Terms of Use
